@@ -40,6 +40,6 @@ Promise.race ([
     recordVideoOne,
     recordVideoTwo,
     recordVideoThree
-]).then((messages) => {
+]).then((message) => {
     console.log(message)
 })
